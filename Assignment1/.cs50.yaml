@@ -1,5 +1,8 @@
 check50: 
   checks: __init__.py
+  files: &check50_files
+    - !exclude "*"
+    - !include "assignment1*.py"
     # assignment1:
     #   - run: python3 assignment1.py hello_world
     #     stdout: 
