@@ -1,21 +1,18 @@
-check50:
-  checks:
-    assignment1:
-      - run: python3 assignment1.py
-        stdout: |
-          Hello
-          *****
-          World
-        stdout: |
-          Hello
-               *****
-                    World
-        stdout: 
-          50
-        stdout: 
-          Hello World
-        stdout:
-          10.0
-        stdout:
-          The earth is round!
-        exit: 0
+check50: 
+  checks: __init__.py
+    # assignment1:
+    #   - run: python3 assignment1.py hello_world
+    #     stdout: 
+    #     - |- 
+    #       Hello
+    #       *****
+    #       World
+    #     - |-
+    #       Hello
+    #            *****
+    #                 World
+    #     - 50
+    #     - Hello World
+    #     - 10.0
+    #     - The earth is round!\n
+    #     exit: 0
