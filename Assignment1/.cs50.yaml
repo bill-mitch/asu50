@@ -4,5 +4,5 @@ check50:
     - !exclude "*"
     - !include "assignment1*.py"
 submit50:
-  # checks: __init__.py
+  checks: __init__.py
   files: *check50_files
