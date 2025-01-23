@@ -1,5 +1,5 @@
-check50: true
-  # checks: __init__.py
+check50:
+  checks: __init__.py
   files: &check50_files
     - !exclude "*"
     - !include "assignment1*.py"
